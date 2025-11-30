@@ -43,11 +43,24 @@ def inorden(raiz):
 
 def preorden(raiz):
     "implementar recorrido preorden (raíz, izquierda, derecha)."
-
+    if raiz is None:
+        return
+    
+    print(raiz.valor, end=" ")  # 1. raíz
+    preorden(raiz.izq)         # 2. izquierda
+    preorden(raiz.der)         # 3. derecha
 
 
 def postorden(raiz):
     "implementar recorrido postorden (izquierda, derecha, raíz)."
+    if raiz is None:
+        return
+    
+    postorden(raiz.izq)   # 1. izquierda
+    postorden(raiz.der)   # 2. derecha
+    print(raiz.valor, end=" ")  # 3. raíz
+
+    
 
 
 
