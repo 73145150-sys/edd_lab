@@ -23,6 +23,3 @@ while continuar.lower() == "s":
         resultado = power(base, exponente)
         print(f"✔ {base} elevado a {exponente} es: {resultado}")
 
-    #continuar = input("\n¿Deseas calcular otra potencia? (s/n): ")
-
-#print("\nPrograma finalizado.")

@@ -10,7 +10,7 @@ def factorial(n):
 # Programa interactivo
 while True:
     print("\n--- CÁLCULO DE FACTORIAL ---")
-    numero = int(input("Ingresa un número (o -1 para salir): "))
+    numero = int(input("INGRESE EL NUMERO (o -1 para salir): "))
 
     if numero == -1:
         print("Programa finalizado.")
